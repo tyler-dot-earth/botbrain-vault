@@ -1,0 +1,21 @@
+:root {
+	/* --font-default: InterVariable; */
+	/* --default-font: InterVariable; */
+	/* --font-family-editor: InterVariable; */
+	/* --font-monospace-default: InterVariable, */
+	/* --font-interface-override: InterVariable, */
+	/* --font-text-override: InterVariable, */
+	/* --font-monospace-override: InterVariable,	 */
+}
+
+body {
+	font-feature-settings:
+		"cv11" 1,
+		"ss01" 1,
+		"zero" 1,
+		"ss07" 1,
+		"ss02" 1,
+		"liga" 1,
+		"calt" 1;
+	--font-interface-override: "Inter", sans-serif;
+}

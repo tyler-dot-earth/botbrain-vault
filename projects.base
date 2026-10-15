@@ -1,0 +1,58 @@
+filters:
+  and:
+    - file.ext == "md"
+formulas:
+  notes: file.backlinks.length
+  last_touched: file.mtime.format("YYYY-MM-DD")
+properties:
+  area:
+    displayName: Area
+  status:
+    displayName: Status
+  started:
+    displayName: Started
+  formula.notes:
+    displayName: Linked notes
+  formula.last_touched:
+    displayName: Last touched
+views:
+  - type: table
+    name: active
+    filters:
+      and:
+        - type == "project"
+        - status == "active"
+    groupBy:
+      property: area
+      direction: ASC
+    order:
+      - file.name
+      - area
+      - started
+      - formula.notes
+      - formula.last_touched
+    cardMonospaceProperties: []
+    columnSize:
+      file.name: 395
+  - type: table
+    name: all projects
+    filters:
+      and:
+        - type == "project"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - area
+      - status
+      - started
+      - formula.last_touched
+  - type: table
+    name: this project
+    filters:
+      and:
+        - 'project && project.linksTo(this.file)'
+    order:
+      - file.name
+      - file.mtime

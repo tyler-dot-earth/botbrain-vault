@@ -1,0 +1,8 @@
+{
+  "showInlineTitle": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "files",
+  "userIgnoreFilters": [
+    "archive/"
+  ]
+}

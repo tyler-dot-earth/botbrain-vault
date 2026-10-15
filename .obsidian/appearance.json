@@ -1,0 +1,12 @@
+{
+  "cssTheme": "Baseline",
+  "theme": "obsidian",
+  "accentColor": "#3a8e76",
+  "showRibbon": false,
+  "interfaceFontFamily": "Inter,Inter Variable",
+  "textFontFamily": "Inter Variable,Inter",
+  "monospaceFontFamily": "Dank Mono",
+  "enabledCssSnippets": [
+    "font"
+  ]
+}

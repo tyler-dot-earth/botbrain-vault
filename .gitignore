@@ -1,0 +1,21 @@
+# Obsidian per-device / cache / trash
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.obsidian/*.cache
+.trash/
+.DS_Store
+Thumbs.db
+
+# Sync / lock / secrets that must never be committed
+.obsidian/.sync.lock
+.obsidian/graph.json.bak
+*.pem
+*.key
+.env
+.env.*
+
+# Fonts are installed system-wide, never committed (see .obsidian/fonts/FONTS.md)
+.obsidian/fonts/*
+!.obsidian/fonts/FONTS.md

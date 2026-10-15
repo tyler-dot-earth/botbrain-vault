@@ -1,0 +1,43 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.folder != "archive"
+formulas:
+  changed: file.mtime.format("YYYY-MM-DD")
+  links_in: file.backlinks.length
+properties:
+  file.folder:
+    displayName: Folder
+  formula.changed:
+    displayName: Changed
+  formula.links_in:
+    displayName: Backlinks
+views:
+  - type: table
+    name: by folder
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - formula.changed
+      - formula.links_in
+    columnSize:
+      file.name: 495
+  - type: table
+    name: recently changed
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    limit: 15
+  - type: table
+    name: this folder
+    filters:
+      and:
+        - file.folder == this.file.folder
+        - file.path != this.file.path
+    order:
+      - file.name
+      - formula.changed
+      - formula.links_in
