@@ -43,5 +43,11 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - [[home]] is the front page
 - `index.base` has views for **by folder**, **recently changed**, and **this folder**
 
+## pointing to notes from outside the vault
+- When telling the human about a note in chat, email, or anywhere outside Obsidian, prefer an Obsidian deep link that opens it locally, like [home](obsidian://open?vault={vault-name}&file=home)
+- Format: `obsidian://open?vault={vault-name}&file=<path without .md>`, URL-encoded (`/` is `%2F`, spaces are `%20`)
+- Also give the plain path in a code span as a fallback, in case the link isn't clickable there
+
 ## Status
 - YYYY-MM-DD (kind/agent name): adapted for the botbrain-vault template
+- YYYY-MM-DD (kind/agent name): added the deep link preference
