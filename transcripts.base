@@ -1,0 +1,51 @@
+filters:
+  and:
+    - file.ext == "md"
+    - type == "transcript"
+    - file.folder != "archive"
+properties:
+  harness:
+    displayName: Harness
+  model:
+    displayName: Model
+  machine:
+    displayName: Machine
+  project:
+    displayName: Project
+  date:
+    displayName: Date
+  session_id:
+    displayName: Session
+  resume:
+    displayName: Resume
+views:
+  - type: table
+    name: all
+    sort:
+      - property: date
+        direction: DESC
+    order:
+      - file.name
+      - date
+      - harness
+      - model
+      - machine
+      - project
+      - session_id
+      - resume
+  - type: table
+    name: by project
+    groupBy:
+      property: project
+      direction: ASC
+    sort:
+      - property: date
+        direction: DESC
+    order:
+      - file.name
+      - date
+      - harness
+      - model
+      - machine
+      - session_id
+      - resume

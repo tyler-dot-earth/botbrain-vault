@@ -1,3 +1,7 @@
+---
+type: hub
+created: 2026-10-15
+---
 Front page for this vault.
 
 ## How this vault works

@@ -1,3 +1,7 @@
+---
+type: pkm
+created: 2026-10-15
+---
 # Write notes around one useful idea
 
 In [[home]], aim for notes that are small enough to reuse and complete enough to understand. This is a practical adaptation of [Andy Matuschak’s evergreen notes](https://notes.andymatuschak.org/z5E5QawiXCMbtNtupvxeoEX).

@@ -1,3 +1,7 @@
+---
+type: pkm
+created: 2026-10-15
+---
 This folder holds daily notes, one per day, named like `YYYY-MM-DD`. The Periodic Notes community plugin (by Liam Cain) creates them here, configured for daily notes only. Each daily note is the running activity log for that day. The morning brief seeds it, and anything the vault owner or an agent does that day that wasn't in the brief gets logged there too.
 
 Items get checked off where they are. Nothing moves between sections

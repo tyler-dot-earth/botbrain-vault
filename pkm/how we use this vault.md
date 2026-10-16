@@ -1,3 +1,7 @@
+---
+type: pkm
+created: 2026-10-15
+---
 How notes are organized in this vault. Note shape follows [[owner writing and note preferences]] and [[write notes around one useful idea]].
 
 ## folders
@@ -48,6 +52,19 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - Format: `obsidian://open?vault={vault-name}&file=<path without .md>`, URL-encoded (`/` is `%2F`, spaces are `%20`)
 - Also give the plain path in a code span as a fallback, in case the link isn't clickable there
 
+- Transcript notes use `type: transcript`, `harness`, `model`, `session_id`, `machine`, `cwd`, `resume`, `date` (when the session happened), `created` (when the note was made), `project`, and `related`
+
+## type on notes
+- Every new note gets a `type`: `project` (hubs only), `note`, `idea`, `agent`, `transcript`, `handoff`, `hub`, or `pkm`. See [[properties]] for what each means
+- When a handoff moves out of `to bots/` or `to human/`, change its type to fit where it lands
+
+## dates on notes
+- Agents set `created: YYYY-MM-DD` on every new note and bump `updated: YYYY-MM-DD` on meaningful edits, since Obsidian templates and plugins never run for files agents write. See [[properties]]
+
 ## Status
 - YYYY-MM-DD (kind/agent name): adapted for the botbrain-vault template
 - YYYY-MM-DD (kind/agent name): added the deep link preference
+- YYYY-MM-DD (kind/agent name): added the transcript properties convention
+- YYYY-MM-DD (kind/agent name): added [[properties]] as the property reference
+- YYYY-MM-DD (kind/agent name): agents set created and updated by hand
+- YYYY-MM-DD (kind/agent name): every new note gets a type

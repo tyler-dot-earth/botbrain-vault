@@ -1,3 +1,7 @@
+---
+type: pkm
+created: 2026-10-15
+---
 # {owner}'s writing and note preferences
 
 How {owner} likes ideas, prose, and notes shaped; extends [[write notes around one useful idea]] and applies to every note here

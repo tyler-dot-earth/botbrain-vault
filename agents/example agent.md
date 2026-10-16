@@ -3,6 +3,7 @@ type: agent
 kind: {kind}
 agent_id: {agent_id}
 status: active
+created: 2026-10-15
 ---
 Example chief-of-staff agent note. Copy this file, rename it, and fill in the placeholders for each real agent.
 

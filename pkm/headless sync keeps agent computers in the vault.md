@@ -1,6 +1,7 @@
 ---
-type: note
+type: pkm
 area: pkm
+created: 2026-10-15
 ---
 How an Obsidian vault stays synced on an agent's computer without the Obsidian app, and what any agent bringing its own computer needs to know to join. It works for any kind of agent or model, as long as the agent can run shell commands.
 

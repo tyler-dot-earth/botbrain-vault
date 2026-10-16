@@ -1,3 +1,7 @@
+---
+type: pkm
+created: 2026-10-15
+---
 # botbrain-vault
 
 A reusable Obsidian vault template for a human plus one or more agents working in the same notes. It ships folder layout, conventions, Bases indexes, and a ready `.obsidian` config (plugins, theme, snippets, Periodic Notes daily setup).
@@ -11,6 +15,8 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | `home.md` | Front page (rename if you want a vault-specific title) |
 | `index.base` | Folder / recently-changed / this-folder views |
 | `projects.base` | Active and all-project views |
+| `transcripts.base` | Saved coding-agent sessions, newest first and by project |
+| `pkm/properties.md`, `pkm/properties.base` | What each frontmatter property means, plus by-type, agents, handoffs, transcripts, and missing-type views |
 | `agents/` | One note per agent; `agents.md` hub + `example agent.md` template |
 | `daily/` | Daily notes (`YYYY-MM-DD`), created by Periodic Notes |
 | `to bots/` | Handoffs from human → agents |

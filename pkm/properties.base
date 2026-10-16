@@ -1,0 +1,80 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.folder != "archive"
+formulas:
+  changed: file.mtime.format("YYYY-MM-DD")
+  prop_count: file.properties.keys().length
+properties:
+  file.folder:
+    displayName: Folder
+  formula.changed:
+    displayName: Changed
+  formula.prop_count:
+    displayName: Properties
+views:
+  - type: table
+    name: by type
+    filters:
+      and:
+        - type
+    groupBy:
+      property: type
+      direction: ASC
+    order:
+      - file.name
+      - area
+      - status
+      - project
+      - created
+      - formula.changed
+  - type: table
+    name: agents
+    filters:
+      and:
+        - type == "agent"
+    groupBy:
+      property: status
+      direction: ASC
+    order:
+      - file.name
+      - kind
+      - area
+      - agent_id
+  - type: table
+    name: handoffs
+    filters:
+      or:
+        - claimed_by
+        - needs
+        - file.folder == "to bots"
+        - file.folder == "to human"
+    order:
+      - file.name
+      - file.folder
+      - claimed_by
+      - claimed
+      - needs
+  - type: table
+    name: transcripts
+    filters:
+      and:
+        - type == "transcript"
+    order:
+      - file.name
+      - date
+      - harness
+      - model
+      - machine
+      - project
+      - resume
+  - type: table
+    name: missing type
+    filters:
+      and:
+        - "!type"
+    order:
+      - file.name
+      - file.folder
+      - formula.prop_count
+      - project
