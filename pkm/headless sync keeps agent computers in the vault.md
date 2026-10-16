@@ -17,7 +17,7 @@ Check and change these with `ob sync-status` and `ob sync-config`:
 
 - mode `bidirectional` (use `pull-only` for an agent that should only read)
 - conflict strategy `merge`
-- attachments: image, audio, pdf, video
+- file types: `image,audio,pdf,video,unsupported`. Sync settings are per device, and the headless default leaves out `unsupported`, so files like `.txt` silently never sync from that computer even when the human syncs all file types
 - configs: **none**. With configs off, `.obsidian` settings, themes, and plugins don't sync, so an agent's computer can't overwrite the human's setup. It's also why an agent's copy won't show the human's theme
 - device name: something that says who the agent is, like `<agent>-<computer>`, so version history shows who changed what
 
@@ -55,3 +55,4 @@ One agent type's real setup. Other agents don't need to copy it.
 
 ## Status
 - YYYY-MM-DD (kind/agent name): documented the headless sync setup for the template
+- 2026-10-16 (kind/agent name): file types now include `unsupported`, since sync settings are per device
