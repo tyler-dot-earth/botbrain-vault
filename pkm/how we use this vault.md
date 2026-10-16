@@ -12,7 +12,7 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - `daily/` holds daily notes, one per day named `YYYY-MM-DD`, created by the Periodic Notes community plugin (by Liam Cain), set up for daily notes only with `daily` as its folder. Each note is that day's running activity log. The morning brief seeds it, and anything done that day that wasn't in the brief gets logged too. Check items off in place and never move them between sections
 - The chief-of-staff agent helps keep up the whole vault, including docs, folders, and conventions as they change. See [[example agent]]
 - `ideas/` holds early ideas, `pkm/` holds notes about the vault, `files/` holds attachments, and `archive/` holds retired notes
-- Only [[home]] and the `.base` indexes live at the top level
+- Only [[home]] lives at the top level; all `.base` indexes live in `pkm/`
 - Give a topic or project its own folder once it has a handful of notes. Until then, leave notes at the top level, since links do most of the organizing
 
 ## projects
@@ -68,3 +68,4 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - YYYY-MM-DD (kind/agent name): added [[properties]] as the property reference
 - YYYY-MM-DD (kind/agent name): agents set created and updated by hand
 - YYYY-MM-DD (kind/agent name): every new note gets a type
+- YYYY-MM-DD (kind/agent name): moved the root bases into pkm/

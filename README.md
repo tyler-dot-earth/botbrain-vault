@@ -13,9 +13,9 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | Path | Purpose |
 | --- | --- |
 | `home.md` | Front page (rename if you want a vault-specific title) |
-| `index.base` | Folder / recently-changed / this-folder views |
-| `projects.base` | Active and all-project views |
-| `transcripts.base` | Saved coding-agent sessions, newest first and by project |
+| `pkm/index.base` | Folder / recently-changed / this-folder views |
+| `pkm/projects.base` | Active and all-project views |
+| `pkm/transcripts.base` | Saved coding-agent sessions, newest first and by project |
 | `pkm/properties.md`, `pkm/properties.base` | What each frontmatter property means, plus by-type, agents, handoffs, transcripts, and missing-type views |
 | `agents/` | One note per agent; `agents.md` hub + `example agent.md` template |
 | `daily/` | Daily notes (`YYYY-MM-DD`), created by Periodic Notes |
