@@ -1,0 +1,339 @@
+/* Tapedeck writes plain markdown, so notes look right without this file.
+   These rules only tidy the import modals. */
+.modal .tapedeck-import-path input {
+	width: 100%;
+}
+
+/* Tape picker: search, checkbox list, and footer. */
+.tapedeck-picker .tapedeck-picker-search {
+	width: 100%;
+}
+
+.tapedeck-picker-toolbar,
+.tapedeck-picker-footer {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+	margin-block: var(--size-4-2);
+}
+
+.tapedeck-picker-status,
+.tapedeck-picker-hint {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+}
+
+.tapedeck-picker-footer .tapedeck-picker-hint {
+	margin-inline-end: auto;
+}
+
+.tapedeck-picker-list {
+	max-height: 50vh;
+	overflow-y: auto;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: var(--radius-s);
+}
+
+.tapedeck-picker-list:focus-visible {
+	outline: 2px solid var(--interactive-accent);
+}
+
+.tapedeck-picker-row {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+	padding: var(--size-2-2) var(--size-4-2);
+	cursor: pointer;
+}
+
+.tapedeck-picker-row input {
+	pointer-events: none;
+}
+
+.tapedeck-picker-row.is-active {
+	background-color: var(--background-modifier-hover);
+}
+
+.tapedeck-picker-label {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tapedeck-picker-note {
+	padding: var(--size-4-2);
+	color: var(--text-muted);
+}
+
+/* 📼 Tape rack sidebar */
+.tapedeck-rack {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.tapedeck-rack-header {
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-4-2);
+	padding: var(--size-4-2) var(--size-4-3);
+	border-bottom: var(--border-width) solid var(--background-modifier-border);
+}
+
+.tapedeck-rack-row-controls {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+}
+
+.tapedeck-rack-search {
+	flex: 1;
+	min-width: 0;
+}
+
+.tapedeck-rack-hide {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-1);
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.tapedeck-rack-status {
+	font-size: var(--font-ui-smaller);
+	color: var(--text-faint);
+}
+
+.tapedeck-rack-selection {
+	display: flex;
+	gap: var(--size-4-2);
+}
+
+.tapedeck-rack-selection.is-hidden {
+	display: none;
+}
+
+.tapedeck-rack-list {
+	flex: 1;
+	overflow-y: auto;
+	padding: var(--size-4-1) 0;
+}
+
+.tapedeck-rack-group {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-1);
+	padding: var(--size-4-2) var(--size-4-3) var(--size-4-1);
+	font-size: var(--font-ui-small);
+	font-weight: var(--font-semibold);
+	color: var(--text-muted);
+	cursor: pointer;
+}
+
+.tapedeck-rack-group-icon {
+	display: flex;
+	transition: transform 100ms ease-in-out;
+}
+
+.tapedeck-rack-group-icon svg {
+	width: var(--icon-xs);
+	height: var(--icon-xs);
+}
+
+.tapedeck-rack-group.is-collapsed .tapedeck-rack-group-icon {
+	transform: rotate(-90deg);
+}
+
+.tapedeck-rack-group-label {
+	flex: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tapedeck-rack-group-count {
+	font-weight: var(--font-normal);
+	color: var(--text-faint);
+}
+
+.tapedeck-rack-tape {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--size-4-2);
+	margin: 0 var(--size-4-1);
+	padding: var(--size-4-1) var(--size-4-2);
+	border-radius: var(--radius-s);
+	cursor: pointer;
+}
+
+.tapedeck-rack-tape:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.tapedeck-rack-tape.is-checked {
+	background-color: var(--background-modifier-active-hover);
+}
+
+.tapedeck-rack-check {
+	margin-top: 3px;
+	flex-shrink: 0;
+}
+
+.tapedeck-rack-body {
+	flex: 1;
+	min-width: 0;
+}
+
+.tapedeck-rack-meta {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-1);
+	font-size: var(--font-ui-smaller);
+	color: var(--text-muted);
+	white-space: nowrap;
+}
+
+.tapedeck-rack-project {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: var(--text-normal);
+}
+
+.tapedeck-rack-badge {
+	flex-shrink: 0;
+	padding: 0 var(--size-4-1);
+	border-radius: var(--radius-s);
+	font-size: var(--font-ui-smaller);
+}
+
+.tapedeck-rack-badge.is-new {
+	color: var(--text-accent);
+	background-color: hsla(var(--interactive-accent-hsl), 0.12);
+}
+
+.tapedeck-rack-badge.is-imported {
+	color: var(--text-faint);
+	background-color: var(--background-modifier-border);
+}
+
+.tapedeck-rack-badge.is-changed {
+	color: var(--text-warning);
+	background-color: rgba(var(--color-orange-rgb), 0.12);
+}
+
+.tapedeck-rack-title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: var(--font-ui-small);
+}
+
+.tapedeck-rack-tape.is-imported .tapedeck-rack-title {
+	color: var(--text-muted);
+}
+
+.tapedeck-rack-tape {
+	position: relative;
+}
+
+/* The row button overlays the right edge on hover, so it never narrows the text. */
+.tapedeck-rack-tape .clickable-icon {
+	position: absolute;
+	top: 50%;
+	right: var(--size-4-1);
+	transform: translateY(-50%);
+	padding-left: var(--size-4-6);
+	background: linear-gradient(to right, transparent, var(--background-secondary) var(--size-4-5));
+	opacity: 0;
+	pointer-events: none;
+}
+
+.tapedeck-rack-tape:hover .clickable-icon,
+.tapedeck-rack-tape:focus-within .clickable-icon {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.tapedeck-rack-note,
+.tapedeck-rack-more {
+	padding: var(--size-4-3);
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+	text-align: center;
+}
+
+/* Touch screens have no hover: the button stays visible, inline after the badge. */
+@media (hover: none) {
+	.tapedeck-rack-tape .clickable-icon {
+		position: static;
+		transform: none;
+		margin-left: auto;
+		padding: 0 var(--size-2-1);
+		background: none;
+		opacity: 1;
+		pointer-events: auto;
+	}
+}
+
+.tapedeck-rack-header .clickable-icon.is-hidden {
+	display: none;
+}
+
+.tapedeck-rack-badge.is-importing {
+	color: var(--text-muted);
+}
+
+.tapedeck-rack-badge.is-imported {
+	color: var(--text-success);
+	background-color: rgba(var(--color-green-rgb), 0.12);
+}
+
+.tapedeck-rack-badge.is-link {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tapedeck-rack-badge.is-failed {
+	color: var(--text-error);
+	background-color: rgba(var(--color-red-rgb), 0.12);
+}
+
+.tapedeck-rack-tape.is-failed {
+	box-shadow: inset 2px 0 0 var(--text-error);
+}
+
+.tapedeck-rack-tape.is-flash {
+	animation: tapedeck-rack-flash 1.5s ease-out;
+}
+
+@keyframes tapedeck-rack-flash {
+	from {
+		background-color: hsla(var(--interactive-accent-hsl), 0.25);
+	}
+}
+
+.tapedeck-notice-link {
+	cursor: pointer;
+}
+
+/* 📼 Tape preview */
+.tapedeck-preview {
+	width: min(90vw, 760px);
+}
+
+.tapedeck-preview-meta {
+	margin-bottom: var(--size-4-2);
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+}
+
+.tapedeck-preview-body {
+	max-height: 60vh;
+	overflow-y: auto;
+	padding: var(--size-4-2) var(--size-4-3);
+	border: var(--border-width) solid var(--background-modifier-border);
+	border-radius: var(--radius-m);
+	background-color: var(--background-primary-alt);
+	user-select: text;
+}

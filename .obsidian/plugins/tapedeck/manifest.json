@@ -1,0 +1,15 @@
+{
+	"id": "tapedeck",
+	"name": "Tapedeck",
+	"version": "0.1.1",
+	"minAppVersion": "1.13.0",
+	"description": "Import agent transcripts (Claude Code, ChatGPT / Codex, Pi) as readable notes.",
+	"author": "tyler.earth",
+	"authorUrl": "https://tyler.earth/",
+	"isDesktopOnly": true,
+	"fundingUrl": {
+		"GitHub Sponsor": "https://github.com/sponsors/tyler-dot-earth",
+		"Ko-Fi": "https://ko-fi.com/tylerdotearth",
+		"Buy Me a Coffee": "https://buymeacoffee.com/tyler.earth"
+	}
+}

@@ -53,7 +53,7 @@ Community plugins already listed in `.obsidian/community-plugins.json`:
 - Mermaid View, Diagram Popup (mermaid-popup)
 - Iconize (obsidian-icon-folder)
 - Style Settings
-- Blockreffer, Lanes (optional but included)
+- Blockreffer, Lanes, Tapedeck (optional but included)
 
 Core: Bases on; Daily notes off; Sync left on for humans who use Obsidian Sync (agents using headless sync should turn Sync off on their device — see the headless sync note).
 

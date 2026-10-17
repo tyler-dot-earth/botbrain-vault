@@ -19,3 +19,7 @@ Thumbs.db
 # Fonts are installed system-wide, never committed (see .obsidian/fonts/FONTS.md)
 .obsidian/fonts/*
 !.obsidian/fonts/FONTS.md
+
+# Tapedeck's tape index holds local session titles and paths
+.obsidian/plugins/tapedeck/tape-cache.json
+.obsidian/plugins/tapedeck/data.json
