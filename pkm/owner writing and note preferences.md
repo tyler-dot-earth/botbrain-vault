@@ -1,60 +1,38 @@
 ---
 type: pkm
 created: 2026-10-15
-updated: 2026-10-21
+updated: 2026-10-22
 ---
-# {owner}'s writing and note preferences
+# [[owner writing and note preferences]]
 
-How {owner} likes ideas, prose, and notes shaped; extends [[write notes around one useful idea]] and applies to every note here
+How the owner likes ideas, prose, and notes shaped; extends [[write notes around one useful idea]] and applies to every note here
 
+Use these as defaults, not rules for every situation. Follow the user's current instructions when they differ
 
-Use these as defaults, not rules for every situation. Follow the user's current instructions when they differ.
+## develop ideas
 
-## Develop ideas
+- [[rough notes are where thinking starts]], so let ideas stay unfinished for a while
+- [[reading highlights are raw material for our own notes]], not a finished store
+- [[each note develops one idea]], and [[structure grows from links not folders]]
 
-- Treat reading highlights and saved links as raw material to revisit, connect, rewrite, and use
-- Let thought start with rough notes, questions, links, and side paths, then shape a through-line when useful
-- Build ideas from focused parts that each retain enough context to stand on their own
-- Preserve questions, asides, and roughness when they show an idea is still developing
-- Don't polish exploratory thoughts into false certainty
-- Favor better thinking over collecting more material or maintaining an elaborate note system
+## shape notes
 
-## Shape writing for scanning
+- [[headings and short bullets make notes scannable]]
+- [[pick the simplest visual that makes it clearer]]
+- [[notes are often compositions of other notes]]
+- [[claim titles make a note reusable wherever it's linked]], and they read inline in a sentence instead of a `; see [[...]]` tail
 
-- Use descriptive `##` and `###` headings to label sections and ideas
-- Put the explanation in short bullets under a heading instead of using bold inline labels as mini-headings
-- Keep each bullet to one sentence and leave off its terminal period
-- Keep lists to a handful of bullets, splitting long lists under another heading
-- Use **bold** sparingly to emphasize a few useful words
-- Prefer plain, conversational wording and concrete examples
-- Lowercase, fragments, asides, and playful names may fit {owner}'s notes, but don't imitate them mechanically
+## small style rules
 
-## Mix text and visuals
-
-- Use a short lead sentence when it helps orient the reader
-- Combine prose, bullets, block quotes, backlinks, and embeds when each adds something
-- Don't force every idea into an outline
-- Use horizontal rules for meaningful breaks and callouts for useful asides or emphasis
-- Choose Mermaid, ASCII diagrams, ASCII tables, or interactive formats when they make a relationship, comparison, or workflow easier to see
-- Pick the simplest visual that clarifies the point because there is no fixed house style
-
-## Work with notes
-
-- Take inspiration from Andy Matuschak's evergreen-note ideas without imposing a strict Zettelkasten
-- Keep one main idea or claim in a note while preserving enough context for it to make sense
-- Use claim-like titles when they sharpen the idea
-- Prefer titles that are complete phrases, since "bots share news through a note they read on a routine" makes a sharper claim than a topic label like "bot news"
-- Avoid commas in note titles, for the most part
-- Use a claim title inline as part of the sentence, since [evergreen note titles are like APIs](https://notes.andymatuschak.org/zDh1yhNFQNxDEre12B4zd8k), like "...bots catch up on news, since [[bots share news in a potluck note they read on a routine]]". Don't restate the claim and tack on "; see [[...]]". When a title isn't a claim, use an alias like [[about daily|daily note]]
-- Treat links as meaningful associations and folders as shallow orientation, not as a complete taxonomy
-- Use tags mainly as identifiers or todos, following existing conventions
-- Keep the system low-friction; scratch notes and imperfect links are acceptable
-- Improve links and discoverability when useful without making upkeep the goal
-- Treat highlight exports as read-only source material, then reference or embed highlights in {owner}'s own notes
-- Keep weekly notes reflective rather than turning them into task lists
-- Leave room in reflection for seeds of ideas, new things, accomplishments, and good or bad feelings
-- Use templates as light, purpose-specific prompts rather than exhaustive forms
-- Leave open space around prompts and keep priority lists short
+- [[lists of three or more take the oxford comma]]
+- [[bold the words a skimmer should catch]]
+- [[plain conversational wording beats formal prose]]
+- [[the owner's voice isn't a template to copy]]
+- [[note titles mostly skip commas]]
+- [[a note's h1 is a wikilink to itself]]
+- [[non-claim titles get an alias when linked]]
+- [[tags are identifiers or todos not categories]]
+- [[chat links to notes use obsidian uris]]
 
 ## example layout
 
@@ -68,6 +46,24 @@ Use these as defaults, not rules for every situation. Follow the user's current 
 
 > [!note] still tentative
 > Mark an unfinished idea as exploratory rather than settled
+
+---
+
+### pull in other notes
+
+- Embed a whole note, a section, or a block, since [[notes are often compositions of other notes]]
+
+A whole note:
+
+![[each note develops one idea]]
+
+One section, by its heading:
+
+![[headings and short bullets make notes scannable#the shape]]
+
+One block, like a single highlight, by its `^id`:
+
+![[some book#^key-highlight]]
 
 ---
 
@@ -85,3 +81,4 @@ flowchart LR
 
 - YYYY-MM-DD (kind/agent name): added as a fillable owner-preferences template
 - 2026-10-21 (grokbot/chief): titles are complete phrases, avoid commas, and get used inline instead of "; see [[...]]" tails
+- 2026-10-22 (grokbot/chief): split the rules into their own notes and kept this as their hub, ported from botbrain without the weekly notes rule

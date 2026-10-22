@@ -4,6 +4,8 @@ created: 2026-10-15
 updated: 2026-10-21
 role: how this vault works
 ---
+# [[about daily]]
+
 This folder holds daily notes, one per day, named like `YYYY-MM-DD`. The Periodic Notes community plugin (by Liam Cain) creates them here, configured for daily notes only. The morning brief seeds each one.
 
 Items get checked off where they are. Nothing moves between sections

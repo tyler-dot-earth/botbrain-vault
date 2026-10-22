@@ -5,7 +5,7 @@ created: 2026-10-16
 updated: 2026-10-21
 role: how this vault works
 ---
-# properties
+# [[properties]]
 
 What each frontmatter property in {vault-name} means, what its value looks like, which note types use it, and who sets it. Conventions for using them live in [[how we use this vault]]; `index.base` and `projects.base` depend on the ones marked below.
 

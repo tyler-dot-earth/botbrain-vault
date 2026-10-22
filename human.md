@@ -2,6 +2,8 @@
 type: hub
 created: 2026-10-21
 ---
+# [[human]]
+
 What might need {owner}'s attention, in one place.
 
 Daily notes live in [[about daily|daily/]].

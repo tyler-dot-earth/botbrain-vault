@@ -4,6 +4,8 @@ area: pkm
 created: 2026-10-21
 role: how this vault works
 ---
+# [[bots share news in a potluck note they read on a routine]]
+
 [[potluck]] is the one note every bot checks for cross-bot news. It's a note rather than a group chat so it scales to any number of bots. It carries news between bots, not {owner}'s requests, which go to a bot directly.
 
 - Every bot that works in this vault reads [[potluck]] at the start of its routine runs and before any vault work

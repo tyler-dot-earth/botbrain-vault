@@ -2,6 +2,8 @@
 type: hub
 created: 2026-10-15
 ---
+# [[agents]]
+
 One note per agent that works in this vault, covering its purpose, instructions, and routines. See [[example agent]] for a template you can copy.
 
 When an agent's real config changes, that agent (or whoever set it up) updates its note, since each note is a snapshot.

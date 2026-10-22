@@ -1,12 +1,14 @@
 ---
 type: pkm
 created: 2026-10-15
-updated: 2026-10-21
+updated: 2026-10-22
 role: how this vault works
 ---
+# [[how we use this vault]]
+
 How notes are organized in this vault. Note shape follows [[owner writing and note preferences]] and [[write notes around one useful idea]].
 
-**The vault holds valuable notes, not activity logged for its own sake.** Agent activity belongs here when it's useful, like a decision trail, a finding, or context a future reader needs. Logging just to log doesn't, so there are no separate log notes. A bot's work for the day goes in one short bullet each under `## activity` at the bottom of that day's [[about daily|daily note]]
+[[a vault note is an idea not a log]], and every bot follows this
 
 ## folders
 - Keep folders **one level deep**, with no subfolders
@@ -78,3 +80,4 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - YYYY-MM-DD (kind/agent name): moved the root bases into pkm/
 - 2026-10-21 (grokbot/chief): useful agent activity goes under `## activity` in the day's daily note, not separate logs
 - 2026-10-21 (grokbot/chief): added [[human]], [[potluck]], and the `role` property for rule notes
+- 2026-10-22 (grokbot/chief): moved the valuable-notes rule into [[a vault note is an idea not a log]]

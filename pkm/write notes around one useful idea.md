@@ -1,15 +1,36 @@
 ---
 type: pkm
 created: 2026-10-15
+updated: 2026-10-22
+role: how this vault works
 ---
-# Write notes around one useful idea
+# [[write notes around one useful idea]]
 
-In [[home]], aim for notes that are small enough to reuse and complete enough to understand. This is a practical adaptation of [Andy Matuschak’s evergreen notes](https://notes.andymatuschak.org/z5E5QawiXCMbtNtupvxeoEX).
+Notes in [[home]] are small enough to reuse and complete enough to understand, adapted from [Andy Matuschak's evergreen notes](https://notes.andymatuschak.org/z5E5QawiXCMbtNtupvxeoEX)
 
-- **Give each note one job.** Develop one idea, question, or decision. Keep the explanation and essential evidence together; split when another idea deserves its own treatment. Over-fragmenting also makes connections harder to see. ([Atomic notes](https://notes.andymatuschak.org/zNUaiGAXp21eorsER1Jm9yU))
-- **Make the title carry meaning.** Prefer a clear claim or focused question that makes sense when linked elsewhere. “Specific titles make notes easier to reuse” says more than “Titles.” Ordinary topic names still work for definitions and navigation. ([Titles](https://notes.andymatuschak.org/zLhoRUyjKU665EY16u4XXJy))
-- **Explain the connection when linking.** Place a wikilink beside the point it supports, challenges, or extends. Look for useful relationships while rereading existing notes. ([Links](https://notes.andymatuschak.org/zF8xCU4BwXwbmSyp7tmff9i), [precise associations](https://notes.andymatuschak.org/zS27HJzP3uD366crN7PYDQU))
-- **Improve the existing idea.** Add new evidence and revise the claim as understanding changes. Keep source links so the reasoning remains checkable. ([Concept-oriented notes](https://notes.andymatuschak.org/z2hQEhqWkdRLL9JUwfawZZx))
-- **Let structure emerge.** Use links and a few useful entry points; add organization only when it solves an actual navigation problem. ([Emergent structure](https://notes.andymatuschak.org/z8SU3r8xyZyvwRhyDdJasJ2))
+This is how we shape them, since [[a vault note is an idea not a log]]
 
-Before saving: can I state the note’s purpose in one sentence, understand it later, and see why its links belong? Length and link count follow that purpose.
+## shape each note
+
+- [[each note develops one idea]]
+- Its title says what that idea is, since [[claim titles make a note reusable wherever it's linked]]
+
+## connect and grow them
+
+- Notes connect when [[a link sits beside the point it supports]]
+- As understanding changes, [[improve the existing note instead of writing a new one]]
+- Over time [[structure grows from links not folders]]
+
+## before saving
+
+- [ ] Can I state the note's purpose in one sentence?
+- [ ] Will I understand it later without today's context?
+- [ ] Can I see why each link belongs?
+
+> [!tip] Length and link count follow from that purpose
+
+---
+
+## Status
+
+- 2026-10-22 (grokbot/chief): split the five rules into their own claim-titled notes and kept this as their hub, ported from botbrain

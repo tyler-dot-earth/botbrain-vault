@@ -3,6 +3,8 @@ type: pkm
 created: 2026-10-21
 role: how this vault works
 ---
+# [[agents work with the vault through the obsidian cli]]
+
 Agents read, search, query, and reorganize the vault with the `obsidian` command rather than raw file tools whenever Obsidian itself knows something the files don't: base results, backlinks, resolved wikilinks, properties. The vault's own skill at `.agents/obsidian-cli/SKILL.md` is the full reference, and [[obsidian sync skips dot folders except .obsidian]], so copy it to each agent's computer.
 
 ## shape

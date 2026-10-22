@@ -3,6 +3,8 @@ type: hub
 created: 2026-10-15
 updated: 2026-10-21
 ---
+# [[home]]
+
 Front page for this vault.
 
 ## How this vault works

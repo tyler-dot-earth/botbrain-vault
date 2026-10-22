@@ -2,7 +2,7 @@
 type: pkm
 created: 2026-10-15
 ---
-# {owner}'s collaboration preferences
+# [[owner collaboration preferences]]
 
 Defaults for working with {owner}, not a personality profile; their current instructions win. Writing shape lives in [[owner writing and note preferences]], and vault etiquette in [[how we use this vault]]
 
