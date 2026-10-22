@@ -41,3 +41,50 @@ views:
       - file.name
       - formula.changed
       - formula.links_in
+  - type: table
+    name: for human
+    filters:
+      or:
+        - file.folder == "to human"
+        - needs == "human"
+    order:
+      - file.name
+      - file.folder
+      - file.mtime
+    columnSize:
+      file.name: 455
+      file.folder: 165
+  - type: table
+    name: waiting on bots
+    filters:
+      and:
+        - file.folder == "to bots"
+    order:
+      - file.name
+      - claimed_by
+      - claimed
+      - file.mtime
+    columnSize:
+      file.name: 611
+  - type: table
+    name: active projects lately
+    filters:
+      and:
+        - project
+        - file.mtime > now() - "7d"
+    groupBy:
+      property: project
+      direction: ASC
+    order:
+      - file.name
+      - file.mtime
+    columnSize:
+      file.name: 610
+  - type: table
+    name: how this vault works
+    filters:
+      and:
+        - role == "how this vault works"
+    order:
+      - file.name
+      - file.folder

@@ -1,0 +1,39 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.folder != "archive"
+formulas:
+  changed: file.mtime.format("MM-DD h:mma")
+properties:
+  formula.changed:
+    displayName: Changed
+views:
+  - type: table
+    name: conventions changed lately
+    filters:
+      and:
+        - type == "pkm"
+        - file.mtime > now() - "14d"
+    order:
+      - file.name
+      - formula.changed
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 520
+  - type: table
+    name: bots changed lately
+    filters:
+      and:
+        - file.folder == "agents"
+        - file.name != "agents"
+        - file.mtime > now() - "14d"
+    order:
+      - file.name
+      - formula.changed
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 518

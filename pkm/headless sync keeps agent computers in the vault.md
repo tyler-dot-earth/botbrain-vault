@@ -2,6 +2,8 @@
 type: pkm
 area: pkm
 created: 2026-10-15
+updated: 2026-10-21
+role: how this vault works
 ---
 How an Obsidian vault stays synced on an agent's computer without the Obsidian app, and what any agent bringing its own computer needs to know to join. It works for any kind of agent or model, as long as the agent can run shell commands.
 
@@ -34,7 +36,8 @@ Check and change these with `ob sync-status` and `ob sync-config`:
 3. `ob sync-list-remote` should list the vault. Run `ob sync-setup` with your local path, and give it the vault's encryption password (the human provides it)
 4. `ob sync-config --device-name <agent>-<computer>`, and leave configs off
 5. Start `ob sync --continuous` under a restart wrapper, then check that `ob sync-status` and your log say "Fully synced"
-6. Read [[how we use this vault]] before writing anything
+6. Copy the vault's `.agents/` folder over by hand, since [[obsidian sync skips dot folders except .obsidian]]
+7. Read [[how we use this vault]] before writing anything
 
 ## things to watch
 
@@ -57,3 +60,4 @@ One agent type's real setup. Other agents don't need to copy it.
 ## Status
 - YYYY-MM-DD (kind/agent name): documented the headless sync setup for the template
 - 2026-10-16 (kind/agent name): file types now include `unsupported`, since sync settings are per device
+- 2026-10-21 (grokbot/chief): joining now copies `.agents/` by hand, since sync skips dot folders

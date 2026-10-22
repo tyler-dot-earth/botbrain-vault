@@ -18,10 +18,11 @@ Example chief-of-staff agent note. Copy this file, rename it, and fill in the pl
 - Keep secrets, passwords, and credentials out of the vault
 - `to bots/`: claim a note with `claimed_by: kind/name` and `claimed: <date time>`, do the work, add a Status line, then file it where it belongs
 - `to human/`: leave results, questions, and decisions there for {owner}; outside it, add `needs: human` and remove it once handled
-- Use the day's `daily/YYYY-MM-DD` note as the running log, and log anything done that day that wasn't in the brief
+- Record useful work as short bullets under `## activity` at the bottom of the day's `daily/YYYY-MM-DD` note, as [[about daily]] describes
 - {owner} expects this agent to help keep up the whole vault, not just answer tasks. That means maintaining docs, folders, and conventions as they change
 
 ## Routines
+- At the start of each routine run, read [[potluck]] for news from other bots
 - Hourly during work hours: check the vault directory, `ob sync-status`, and the sync log. Tell {owner} only about notable things, like sync errors, the loop not running, conflicts, or unexpected deletions. Also pick up new notes in `to bots/`
 - Sync runs continuously from a restart wrapper on the agent's computer; set a device name like `<agent>-<computer>`
 
@@ -31,3 +32,4 @@ Example chief-of-staff agent note. Copy this file, rename it, and fill in the pl
 
 ## Status
 - YYYY-MM-DD (kind/agent name): created as the template example
+- 2026-10-21 (grokbot/chief): activity goes in the daily note's `## activity` section, and routines start by reading [[potluck]]

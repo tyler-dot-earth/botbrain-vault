@@ -2,6 +2,8 @@
 type: pkm
 area: pkm
 created: 2026-10-16
+updated: 2026-10-21
+role: how this vault works
 ---
 # properties
 
@@ -21,7 +23,7 @@ What each frontmatter property in {vault-name} means, what its value looks like,
 | `agent` | one agent's purpose, instructions, routines | `agents/`, like [[example agent]] |
 | `transcript` | a saved coding-agent session | `files/` |
 | `handoff` | a note waiting on a bot or on {owner}; keeps `claimed_by`/`claimed`. Retype when it's moved out | `to bots/`, `to human/` |
-| `hub` | a front page or index note for a person or area | [[home]], [[agents]] |
+| `hub` | a front page or index note for a person or area | [[home]], [[human]], [[agents]] |
 | `pkm` | how the vault and our note-taking work, including each folder's `about` note | `pkm/`, `about` notes |
 
 - **area** — the broader area a note belongs to, usually matching a folder or product. Plain lowercase slug like `pkm` or `personal`. Optional; general-purpose agents leave it off. Set by the note's creator. `projects.base` groups active projects by it
@@ -30,6 +32,7 @@ What each frontmatter property in {vault-name} means, what its value looks like,
 - **created** — the day the note was started. `YYYY-MM-DD`
 - **updated** — the day of the last meaningful edit. `YYYY-MM-DD`. Bumped by whoever makes the edit
 - **status** — lifecycle state. For projects: `active`, `paused`, or `done`. For agents: `active` or `paused`. Set by {owner} or the note's owner agent. `projects.base` filters and groups on it
+- **role** — what job a note does beyond its type. So far one value, `how this vault works`, on the notes that explain how part of the vault works. Set by whoever writes or adopts such a note. `index.base#how this vault works` lists them, and [[home]] embeds that view
 
 ## projects
 
@@ -79,3 +82,4 @@ created: <% tp.file.creation_date("YYYY-MM-DD") %>
 ## Status
 
 - YYYY-MM-DD (kind/agent name): created as the property reference, with `properties.base` and `transcripts.base`
+- 2026-10-21 (grokbot/chief): added `role`

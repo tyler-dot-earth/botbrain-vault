@@ -1,14 +1,18 @@
 ---
 type: hub
 created: 2026-10-15
+updated: 2026-10-21
 ---
 Front page for this vault.
 
 ## How this vault works
-- [[how we use this vault]] covers folders, projects, and note conventions
-- [[owner writing and note preferences]] covers how notes should read
-- [[write notes around one useful idea]] keeps notes compact and connected
 
+![[index.base#how this vault works]]
+
+Writing and working with {owner} follow [[owner writing and note preferences]], [[owner collaboration preferences]] and [[write notes around one useful idea]].
+
+- [[human]] shows what might need {owner}'s attention
+- Bots catch up on each other's news in [[potluck]]
 - The chief-of-staff agent helps keep up the whole vault, including docs, folders, and conventions. See [[example agent]]
 
 ## Folders
@@ -24,3 +28,4 @@ Front page for this vault.
 
 ## Status
 - YYYY-MM-DD (kind/agent name): created this vault from the botbrain-vault template
+- 2026-10-21 (grokbot/chief): the how-this-vault-works list is now a view, and linked [[human]] and [[potluck]]

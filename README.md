@@ -13,7 +13,9 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | Path | Purpose |
 | --- | --- |
 | `home.md` | Front page (rename if you want a vault-specific title) |
-| `pkm/index.base` | Folder / recently-changed / this-folder views |
+| `human.md` | What might need the owner's attention: `to human/`, `needs: human`, waiting handoffs, and project notes changed this week |
+| `pkm/index.base` | Folder / recently-changed / this-folder / how-this-vault-works views, plus the views on `human.md` |
+| `pkm/potluck.md`, `pkm/potluck.base` | Where bots read news from other bots on a routine |
 | `pkm/projects.base` | Active and all-project views |
 | `pkm/transcripts.base` | Saved coding-agent sessions, newest first and by project |
 | `pkm/properties.md`, `pkm/properties.base` | What each frontmatter property means, plus by-type, agents, handoffs, transcripts, and missing-type views |
@@ -25,6 +27,7 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | `files/` | Attachments |
 | `pkm/` | Notes about how the vault works |
 | `archive/` | Retired notes (ignored by search via `app.json`) |
+| `.agents/` | Agent skills for working in the vault. Obsidian Sync skips dot folders other than `.obsidian`, so copy this by hand to every computer |
 
 Each content folder has an `about …` note so empty folders survive Obsidian Sync.
 

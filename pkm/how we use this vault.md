@@ -1,18 +1,22 @@
 ---
 type: pkm
 created: 2026-10-15
+updated: 2026-10-21
+role: how this vault works
 ---
 How notes are organized in this vault. Note shape follows [[owner writing and note preferences]] and [[write notes around one useful idea]].
+
+**The vault holds valuable notes, not activity logged for its own sake.** Agent activity belongs here when it's useful, like a decision trail, a finding, or context a future reader needs. Logging just to log doesn't, so there are no separate log notes. A bot's work for the day goes in one short bullet each under `## activity` at the bottom of that day's [[about daily|daily note]]
 
 ## folders
 - Keep folders **one level deep**, with no subfolders
 - Use lowercase file and folder names
 - `agents/` holds one note per agent, with its purpose, instructions, and routines; [[agents]] is the hub
 - `to bots/` and `to human/` are handoff folders, covered below
-- `daily/` holds daily notes, one per day named `YYYY-MM-DD`, created by the Periodic Notes community plugin (by Liam Cain), set up for daily notes only with `daily` as its folder. Each note is that day's running activity log. The morning brief seeds it, and anything done that day that wasn't in the brief gets logged too. Check items off in place and never move them between sections
+- `daily/` holds daily notes, one per day named `YYYY-MM-DD`, created by the Periodic Notes community plugin (by Liam Cain), set up for daily notes only with `daily` as its folder. The morning brief seeds it. Check items off in place and never move them between sections. [[about daily]] has the details, including the `## activity` section
 - The chief-of-staff agent helps keep up the whole vault, including docs, folders, and conventions as they change. See [[example agent]]
 - `ideas/` holds early ideas, `pkm/` holds notes about the vault, `files/` holds attachments, and `archive/` holds retired notes
-- Only [[home]] lives at the top level; all `.base` indexes live in `pkm/`
+- Only [[home]] and [[human]] live at the top level; all `.base` indexes live in `pkm/`
 - Give a topic or project its own folder once it has a handful of notes. Until then, leave notes at the top level, since links do most of the organizing
 
 ## projects
@@ -39,13 +43,15 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - An agent claims it by adding `claimed_by: kind/name` and `claimed: <date and time>` to its properties, so others leave it alone
 - The agent does the work in the note, adds a Status line, and moves it where it belongs, removing the claim
 - Agents put things for {owner} in `to human/`, like finished research, questions, or decisions, and {owner} moves or deletes them once seen
-- When something outside `to human/` needs {owner}, an agent adds `needs: human` to its properties and removes it once handled
+- When something outside `to human/` needs {owner}, an agent adds `needs: human` to its properties and removes it once handled. Both show up on [[human]], along with what's waiting in `to bots/`
 - Agents aren't notified of vault changes, so a note in `to bots/` waits until an agent checks. For anything urgent, message the agent directly
 - Each folder holds a short `about` note so the folder survives sync even when empty
 
 ## entry points
 - [[home]] is the front page
-- `index.base` has views for **by folder**, **recently changed**, and **this folder**
+- `index.base` has views for **by folder**, **recently changed**, **this folder**, **how this vault works**, **for human**, **waiting on bots**, and **active projects lately**
+- Notes that explain the vault's rules get `role: how this vault works`, so they show up in that view on [[home]]
+- Bots read [[potluck]] for news from other bots, since [[bots share news in a potluck note they read on a routine]]
 
 ## pointing to notes from outside the vault
 - When telling the human about a note in chat, email, or anywhere outside Obsidian, prefer an Obsidian deep link that opens it locally, like [home](obsidian://open?vault={vault-name}&file=home)
@@ -69,3 +75,5 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - YYYY-MM-DD (kind/agent name): agents set created and updated by hand
 - YYYY-MM-DD (kind/agent name): every new note gets a type
 - YYYY-MM-DD (kind/agent name): moved the root bases into pkm/
+- 2026-10-21 (grokbot/chief): useful agent activity goes under `## activity` in the day's daily note, not separate logs
+- 2026-10-21 (grokbot/chief): added [[human]], [[potluck]], and the `role` property for rule notes

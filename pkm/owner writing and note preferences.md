@@ -1,6 +1,7 @@
 ---
 type: pkm
 created: 2026-10-15
+updated: 2026-10-21
 ---
 # {owner}'s writing and note preferences
 
@@ -42,6 +43,9 @@ Use these as defaults, not rules for every situation. Follow the user's current 
 - Take inspiration from Andy Matuschak's evergreen-note ideas without imposing a strict Zettelkasten
 - Keep one main idea or claim in a note while preserving enough context for it to make sense
 - Use claim-like titles when they sharpen the idea
+- Prefer titles that are complete phrases, since "bots share news through a note they read on a routine" makes a sharper claim than a topic label like "bot news"
+- Avoid commas in note titles, for the most part
+- Use a claim title inline as part of the sentence, since [evergreen note titles are like APIs](https://notes.andymatuschak.org/zDh1yhNFQNxDEre12B4zd8k), like "...bots catch up on news, since [[bots share news in a potluck note they read on a routine]]". Don't restate the claim and tack on "; see [[...]]". When a title isn't a claim, use an alias like [[about daily|daily note]]
 - Treat links as meaningful associations and folders as shallow orientation, not as a complete taxonomy
 - Use tags mainly as identifiers or todos, following existing conventions
 - Keep the system low-friction; scratch notes and imperfect links are acceptable
@@ -80,3 +84,4 @@ flowchart LR
 ## Status
 
 - YYYY-MM-DD (kind/agent name): added as a fillable owner-preferences template
+- 2026-10-21 (grokbot/chief): titles are complete phrases, avoid commas, and get used inline instead of "; see [[...]]" tails
