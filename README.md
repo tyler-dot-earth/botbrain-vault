@@ -25,6 +25,7 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | `to human/` | Handoffs from agents → human |
 | `ideas/` | Loose early ideas |
 | `files/` | Attachments |
+| `transcripts/` | Coding-agent sessions imported by Tapedeck (created on first import) |
 | `pkm/` | Notes about how the vault works |
 | `archive/` | Retired notes (ignored by search via `app.json`) |
 | `.agents/` | Agent skills for working in the vault. Obsidian Sync skips dot folders other than `.obsidian`, so copy this by hand to every computer |
@@ -56,7 +57,7 @@ Community plugins already listed in `.obsidian/community-plugins.json`:
 - Mermaid View, Diagram Popup (mermaid-popup)
 - Iconize (obsidian-icon-folder)
 - Style Settings
-- Blockreffer, Lanes, [Tapedeck](https://community.obsidian.md/plugins/tapedeck) (optional but included)
+- [Blockreffer](https://community.obsidian.md/plugins/blockreffer), [Lanes](https://community.obsidian.md/plugins/lanes) 🎳, [Tapedeck](https://community.obsidian.md/plugins/tapedeck) 📼 (optional but included; Tapedeck imports into `transcripts/`)
 
 Core: Bases on; Daily notes off; Sync left on for humans who use Obsidian Sync (agents using headless sync should turn Sync off on their device — see the headless sync note).
 

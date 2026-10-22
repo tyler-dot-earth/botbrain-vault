@@ -20,6 +20,6 @@ Thumbs.db
 .obsidian/fonts/*
 !.obsidian/fonts/FONTS.md
 
-# Tapedeck's tape index holds local session titles and paths
+# Tapedeck's tape index holds local session titles and paths. Its data.json is
+# committed only for importFolder; keep local session directories out of it
 .obsidian/plugins/tapedeck/tape-cache.json
-.obsidian/plugins/tapedeck/data.json

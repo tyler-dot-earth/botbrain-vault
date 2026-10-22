@@ -15,7 +15,7 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - `to bots/` and `to human/` are handoff folders, covered below
 - `daily/` holds daily notes, one per day named `YYYY-MM-DD`, created by the Periodic Notes community plugin (by Liam Cain), set up for daily notes only with `daily` as its folder. The morning brief seeds it. Check items off in place and never move them between sections. [[about daily]] has the details, including the `## activity` section
 - The chief-of-staff agent helps keep up the whole vault, including docs, folders, and conventions as they change. See [[example agent]]
-- `ideas/` holds early ideas, `pkm/` holds notes about the vault, `files/` holds attachments, and `archive/` holds retired notes
+- `ideas/` holds early ideas, `pkm/` holds notes about the vault, `files/` holds attachments, `transcripts/` holds coding-agent sessions imported by Tapedeck, and `archive/` holds retired notes
 - Only [[home]] and [[human]] live at the top level; all `.base` indexes live in `pkm/`
 - Give a topic or project its own folder once it has a handful of notes. Until then, leave notes at the top level, since links do most of the organizing
 

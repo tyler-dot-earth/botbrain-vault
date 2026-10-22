@@ -21,7 +21,7 @@ What each frontmatter property in {vault-name} means, what its value looks like,
 | `note` | a general working note; links to its hub with `project` when it belongs to one | anywhere |
 | `idea` | an early idea or something to explore later | `ideas/` |
 | `agent` | one agent's purpose, instructions, routines | `agents/`, like [[example agent]] |
-| `transcript` | a saved coding-agent session | `files/` |
+| `transcript` | a saved coding-agent session | `transcripts/` |
 | `handoff` | a note waiting on a bot or on {owner}; keeps `claimed_by`/`claimed`. Retype when it's moved out | `to bots/`, `to human/` |
 | `hub` | a front page or index note for a person or area | [[home]], [[human]], [[agents]] |
 | `pkm` | how the vault and our note-taking work, including each folder's `about` note | `pkm/`, `about` notes |
@@ -55,7 +55,7 @@ Used on notes in `to bots/` and `to human/`, or anywhere that needs {owner}. The
 
 ## transcript
 
-Used on `type: transcript` notes, usually in `files/`, set by the agent that saves the transcript. `transcripts.base` lists them all (views **all**, newest first, and **by project**): ![[transcripts.base#all]]
+Used on `type: transcript` notes, in `transcripts/` where Tapedeck imports them, set by the agent that saves the transcript. `transcripts.base` lists them all (views **all**, newest first, and **by project**): ![[transcripts.base#all]]
 
 - **harness** — the coding tool the session ran in, like `claude code`
 - **model** — the model used
