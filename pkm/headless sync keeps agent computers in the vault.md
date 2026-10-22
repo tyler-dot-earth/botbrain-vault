@@ -27,7 +27,7 @@ Check and change these with `ob sync-status` and `ob sync-config`:
 ## why the app's own sync is off
 
 - Obsidian supports only **one sync method per device**
-- If the desktop app is also installed on an agent's computer (it's handy for viewing and for the `obsidian` CLI, which only works while the app runs), turn off the app's core **Sync** plugin: `"sync": false` in `.obsidian/core-plugins.json`
+- If the desktop app is also installed on an agent's computer (it's handy for viewing, and [[agents work with the vault through the obsidian cli]], which only works while the app runs), turn off the app's core **Sync** plugin: `"sync": false` in `.obsidian/core-plugins.json`
 
 ## joining from your own computer
 

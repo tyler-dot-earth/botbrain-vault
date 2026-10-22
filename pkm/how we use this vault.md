@@ -52,6 +52,7 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - `index.base` has views for **by folder**, **recently changed**, **this folder**, **how this vault works**, **for human**, **waiting on bots**, and **active projects lately**
 - Notes that explain the vault's rules get `role: how this vault works`, so they show up in that view on [[home]]
 - Bots read [[potluck]] for news from other bots, since [[bots share news in a potluck note they read on a routine]]
+- Agents query the vault with the `obsidian` command where the app runs, since [[agents work with the vault through the obsidian cli]]
 
 ## pointing to notes from outside the vault
 - When telling the human about a note in chat, email, or anywhere outside Obsidian, prefer an Obsidian deep link that opens it locally, like [home](obsidian://open?vault={vault-name}&file=home)
