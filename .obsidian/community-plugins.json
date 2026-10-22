@@ -2,7 +2,7 @@
   "mermaid-view",
   "obsidian-style-settings",
   "mermaid-popup",
-  "obsidian-icon-folder",
+  "iconic",
   "blockreffer",
   "lanes",
   "templater-obsidian",
@@ -10,5 +10,6 @@
   "periodic-notes",
   "nldates-obsidian",
   "calendar-bases",
-  "tapedeck"
+  "tapedeck",
+  "open-tab-settings"
 ]

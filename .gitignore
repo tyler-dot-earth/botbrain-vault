@@ -23,3 +23,6 @@ Thumbs.db
 # Tapedeck's tape index holds local session titles and paths. Its data.json is
 # committed only for importFolder; keep local session directories out of it
 .obsidian/plugins/tapedeck/tape-cache.json
+
+# Iconic keeps rolling backups of its settings
+.obsidian/plugins/iconic/data.json.backup*

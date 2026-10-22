@@ -1,0 +1,85 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": false,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "desktop",
+  "useSearchKeywords": "on",
+  "maxSearchResults": 100,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 2,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "home.md": {
+      "icon": "lucide-brain-circuit"
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "d7J36",
+      "name": "bases",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "extension",
+          "operator": "contains",
+          "value": "base"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-database"
+    },
+    {
+      "id": "NKvBT",
+      "name": "how this vault works",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:role",
+          "operator": "is",
+          "value": "how this vault works"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-info"
+    },
+    {
+      "id": "n06ad",
+      "name": "daily",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "tree",
+          "operator": "contains",
+          "value": "daily"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-calendar"
+    }
+  ],
+  "folderRules": []
+}

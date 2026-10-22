@@ -55,7 +55,8 @@ Community plugins already listed in `.obsidian/community-plugins.json`:
 - Calendar, Calendar Bases, Natural Language Dates
 - Templater
 - Mermaid View, Diagram Popup (mermaid-popup)
-- Iconize (obsidian-icon-folder)
+- Iconic (icons for `.base` files, how-this-vault-works notes, and daily notes)
+- Open Tab Settings (open notes in a new tab and skip duplicate tabs)
 - Style Settings
 - [Blockreffer](https://community.obsidian.md/plugins/blockreffer), [Lanes](https://community.obsidian.md/plugins/lanes) 🎳, [Tapedeck](https://community.obsidian.md/plugins/tapedeck) 📼 (optional but included; Tapedeck imports into `transcripts/`)
 
