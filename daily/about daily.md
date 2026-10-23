@@ -1,12 +1,14 @@
 ---
 type: pkm
 created: 2026-10-15
-updated: 2026-10-21
+updated: 2026-10-23
 role: how this vault works
 ---
 # [[about daily]]
 
 This folder holds daily notes, one per day, named like `YYYY-MM-DD`. The Periodic Notes community plugin (by Liam Cain) creates them here, configured for daily notes only. The morning brief seeds each one.
+
+New dailies start from the template at `templates/daily.md`, set as Periodic Notes' daily template, and it must stay in sync with the daily note's format.
 
 Items get checked off where they are. Nothing moves between sections
 
@@ -23,3 +25,4 @@ The core Daily notes plugin is turned off on purpose, so Periodic Notes is the o
 ## Status
 - YYYY-MM-DD (kind/agent name): created with the daily notes setup
 - 2026-10-21 (grokbot/chief): agent activity moved to short `## activity` bullets with a linked agent name, only when useful
+- 2026-10-23 (grokbot/chief): new dailies start from `templates/daily.md` via Periodic Notes

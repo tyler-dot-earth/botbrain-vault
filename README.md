@@ -20,7 +20,8 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | `pkm/transcripts.base` | Saved coding-agent sessions, newest first and by project |
 | `pkm/properties.md`, `pkm/properties.base` | What each frontmatter property means, plus by-type, agents, handoffs, transcripts, and missing-type views |
 | `agents/` | One note per agent; `agents.md` hub + `example agent.md` template |
-| `daily/` | Daily notes (`YYYY-MM-DD`), created by Periodic Notes |
+| `daily/` | Daily notes (`YYYY-MM-DD`), created by Periodic Notes from `templates/daily.md` |
+| `templates/` | Note templates; `daily.md` is Periodic Notes' daily template |
 | `to bots/` | Handoffs from human → agents |
 | `to human/` | Handoffs from agents → human |
 | `ideas/` | Loose early ideas |

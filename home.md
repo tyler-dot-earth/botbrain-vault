@@ -18,7 +18,7 @@ Writing and working with {owner} follow [[owner writing and note preferences]], 
 - The chief-of-staff agent helps keep up the whole vault, including docs, folders, and conventions. See [[example agent]]
 
 ## Folders
-- `to bots/` for handoffs to agents, `to human/` for things agents leave for the vault owner, `daily/` for daily notes, `agents/` for agent notes, `ideas/` for loose ideas, `files/` for attachments, `pkm/` for notes about the vault, and `archive/` for retired notes
+- `to bots/` for handoffs to agents, `to human/` for things agents leave for the vault owner, `daily/` for daily notes, `agents/` for agent notes, `ideas/` for loose ideas, `files/` for attachments, `pkm/` for notes about the vault, `templates/` for note templates, and `archive/` for retired notes
 
 ## Projects
 
