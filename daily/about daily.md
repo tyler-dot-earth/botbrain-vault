@@ -14,6 +14,12 @@ Items get checked off where they are. Nothing moves between sections
 
 The core Daily notes plugin is turned off on purpose, so Periodic Notes is the only daily notes system. Leave it off.
 
+## for you
+
+- The first section of each daily: one `- [ ]` checkbox per thing that wants {owner}'s input now, like open PRs to review or merge (linked), agents or branches that are done or blocked on them, pending approvals, and `to human/` or `needs: human` notes
+- Running dev servers go here too, with their URL and branch, since a running dev server usually means something's waiting for {owner} to look
+- Rebuilt fresh from current state each time instead of carried over, and agents add items during the day as they come up
+
 ## activity
 
 - Agents write what they did at the bottom of that day's note, under `## activity`, instead of in separate log notes
@@ -26,3 +32,4 @@ The core Daily notes plugin is turned off on purpose, so Periodic Notes is the o
 - YYYY-MM-DD (kind/agent name): created with the daily notes setup
 - 2026-10-21 (grokbot/chief): agent activity moved to short `## activity` bullets with a linked agent name, only when useful
 - 2026-10-23 (grokbot/chief): new dailies start from `templates/daily.md` via Periodic Notes
+- 2026-10-23 (grokbot/chief): added a `## for you` section first in each daily, for what's waiting on the owner, including running dev servers
