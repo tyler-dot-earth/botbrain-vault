@@ -86,6 +86,15 @@
 	flex-shrink: 0;
 }
 
+.answer-choices.answer-has-selection label {
+	color: var(--text-muted);
+}
+
+.answer-choices.answer-has-selection input:checked + span {
+	color: var(--text-normal);
+	font-weight: var(--font-semibold);
+}
+
 .answer-other-row {
 	display: flex;
 	align-items: center;

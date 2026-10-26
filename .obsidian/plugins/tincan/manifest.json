@@ -1,7 +1,7 @@
 {
 	"id": "tincan",
 	"name": "Tincan",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"minAppVersion": "1.13.0",
 	"description": "Answer questions in reading view with plain Markdown callouts.",
 	"author": "tyler.earth",
