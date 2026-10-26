@@ -1,7 +1,7 @@
 ---
 type: pkm
 created: 2026-10-15
-updated: 2026-10-22
+updated: 2026-10-26
 ---
 # [[owner writing and note preferences]]
 
@@ -21,6 +21,14 @@ Use these as defaults, not rules for every situation. Follow the user's current 
 - [[pick the simplest visual that makes it clearer]]
 - [[notes are often compositions of other notes]]
 - [[claim titles make a note reusable wherever it's linked]], and they read inline in a sentence instead of a `; see [[...]]` tail
+- Questions for the owner are [Tincan](https://github.com/tyler-dot-earth/obsidian-tincan) callouts with the question as the title: `[!question]` for free text, `[!question|choice]` to pick one, and `[!question|choices]` to pick several, with options as `> - [ ] option` lines, a leading `🤖` on the recommended one, and Tincan's own Other row for anything else:
+
+```markdown
+> [!question|choice] Which day should the weekly review happen?
+>
+> - [ ] 🤖 Saturday
+> - [ ] Sunday
+```
 
 ## small style rules
 
@@ -82,3 +90,4 @@ flowchart LR
 - YYYY-MM-DD (kind/agent name): added as a fillable owner-preferences template
 - 2026-10-21 (grokbot/chief): titles are complete phrases, avoid commas, and get used inline instead of "; see [[...]]" tails
 - 2026-10-22 (grokbot/chief): split the rules into their own notes and kept this as their hub, ported from botbrain without the weekly notes rule
+- 2026-10-26 (grokbot/worm): rewrote for tincan's question-as-title form, the only question form now

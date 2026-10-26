@@ -59,7 +59,7 @@ Community plugins already listed in `.obsidian/community-plugins.json`:
 - Iconic (icons for `.base` files, how-this-vault-works notes, and daily notes)
 - Open Tab Settings (open notes in a new tab and skip duplicate tabs)
 - Style Settings
-- [Blockreffer](https://community.obsidian.md/plugins/blockreffer), [Lanes](https://community.obsidian.md/plugins/lanes) 🎳, [Tapedeck](https://community.obsidian.md/plugins/tapedeck) 📼 (optional but included; Tapedeck imports into `transcripts/`), [Tincan](https://github.com/tyler-dot-earth/obsidian-tincan) 🥫 (answer `[!answer]` question callouts in reading view)
+- [Blockreffer](https://community.obsidian.md/plugins/blockreffer), [Lanes](https://community.obsidian.md/plugins/lanes) 🎳, [Tapedeck](https://community.obsidian.md/plugins/tapedeck) 📼 (optional but included; Tapedeck imports into `transcripts/`), [Tincan](https://github.com/tyler-dot-earth/obsidian-tincan) 🥫 (answer `[!question]`, `[!question|choice]`, and `[!question|choices]` callouts in reading view)
 
 Core: Bases on; Daily notes off; Sync left on for humans who use Obsidian Sync (agents using headless sync should turn Sync off on their device — see the headless sync note).
 
