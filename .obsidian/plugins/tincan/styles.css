@@ -1,0 +1,169 @@
+.callout.answer-unanswered {
+	--callout-color: var(--color-blue-rgb);
+	--callout-icon: lucide-circle-help;
+}
+
+.callout.answer-answered {
+	--callout-color: var(--color-green-rgb);
+	--callout-icon: lucide-circle-check;
+}
+
+.callout.answer-question {
+	padding: var(--size-4-3);
+}
+
+.callout.answer-question > .callout-title {
+	font-size: var(--font-ui-small);
+	gap: var(--size-4-2);
+	margin-bottom: var(--size-4-2);
+}
+
+.callout.answer-question > .callout-title .callout-icon svg {
+	width: 1em;
+	height: 1em;
+}
+
+.answer-kind {
+	color: var(--text-muted);
+	font-size: var(--font-ui-smaller);
+	font-weight: var(--font-normal);
+}
+
+.answer-editor,
+.answer-other-editor {
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-4-2);
+}
+
+.answer-input {
+	width: 100%;
+	min-height: 8em;
+	max-height: 55vh;
+	resize: vertical;
+	font: inherit;
+	line-height: var(--line-height-normal);
+}
+
+.answer-controls,
+.answer-actions {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: var(--size-4-2);
+}
+
+.answer-actions {
+	margin-top: var(--size-4-1);
+}
+
+.answer-choices {
+	min-width: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.answer-choices legend {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	overflow: hidden;
+	clip-path: inset(50%);
+}
+
+.answer-choices label {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+	min-height: 44px;
+	cursor: pointer;
+	overflow-wrap: anywhere;
+}
+
+.answer-choices input {
+	flex-shrink: 0;
+}
+
+.answer-other-row {
+	display: flex;
+	align-items: center;
+	gap: var(--size-4-2);
+}
+
+.answer-other-row label {
+	flex: 1;
+	min-width: 0;
+	white-space: pre-wrap;
+}
+
+.answer-other-editor textarea {
+	width: 100%;
+	min-height: 3em;
+	font: inherit;
+	resize: vertical;
+}
+
+.answer-question button.answer-link,
+.modal button.answer-link {
+	background: none;
+	box-shadow: none;
+	border: 0;
+	padding: var(--size-4-1);
+	color: var(--text-muted);
+	font-size: var(--font-ui-small);
+	height: auto;
+}
+
+.answer-question button.answer-link:hover,
+.modal button.answer-link:hover {
+	color: var(--text-normal);
+	background: var(--background-modifier-hover);
+}
+
+.answer-saved,
+.answer-note-text {
+	white-space: pre-wrap;
+}
+
+.answer-note {
+	margin-top: var(--size-4-2);
+	padding-top: var(--size-4-1);
+	border-top: var(--border-width) solid var(--background-modifier-border);
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+}
+
+.answer-note .answer-input {
+	min-height: 3em;
+}
+
+.answer-note .answer-actions {
+	margin: 0;
+}
+
+.answer-question [hidden],
+.callout.answer-source-hidden {
+	display: none;
+}
+
+.callout:is(.answer-answered, .answer-unanswered) {
+	border-color: rgb(var(--callout-color));
+}
+
+.callout:is(.answer-answered, .answer-unanswered) > .callout-title,
+.callout:is(.answer-answered, .answer-unanswered) > .callout-title > .callout-icon {
+	color: rgb(var(--callout-color));
+}
+
+.callout.answer-question[data-callout] > .callout-content,
+.callout.answer-question .answer-body > .callout-content,
+.callout.answer-question .answer-note > .callout-content {
+	padding: 0;
+	margin: 0;
+}
+
+.is-mobile .answer-question button.answer-link {
+	min-height: 44px;
+}

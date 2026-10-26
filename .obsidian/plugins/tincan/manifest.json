@@ -1,0 +1,15 @@
+{
+	"id": "tincan",
+	"name": "Tincan",
+	"version": "0.1.0",
+	"minAppVersion": "1.13.0",
+	"description": "Answer questions in reading view with plain Markdown callouts.",
+	"author": "tyler.earth",
+	"isDesktopOnly": false,
+	"authorUrl": "https://tyler.earth/",
+	"fundingUrl": {
+		"GitHub Sponsor": "https://github.com/sponsors/tyler-dot-earth",
+		"Ko-Fi": "https://ko-fi.com/tylerdotearth",
+		"Buy Me a Coffee": "https://buymeacoffee.com/tyler.earth"
+	}
+}
