@@ -1,6 +1,8 @@
 ---
 name: defuddle
 description: Extract clean Markdown from HTML pages with Defuddle CLI.
+metadata:
+  upstream: https://github.com/kepano/obsidian-skills/tree/main/skills/defuddle
 ---
 
 # Defuddle
