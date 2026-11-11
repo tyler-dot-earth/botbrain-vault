@@ -1,0 +1,42 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - type == "find"
+        - file.inFolder("finds")
+    - file.name != "finds"
+properties:
+  area:
+    displayName: Area
+  source:
+    displayName: Source
+  created:
+    displayName: Created
+views:
+  - type: table
+    name: recent
+    order:
+      - file.name
+      - area
+      - source
+      - created
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      file.name: 420
+  - type: table
+    name: by area
+    groupBy:
+      property: area
+      direction: ASC
+    order:
+      - file.name
+      - area
+      - source
+      - created
+    sort:
+      - property: created
+        direction: DESC
+    columnSize:
+      file.name: 420

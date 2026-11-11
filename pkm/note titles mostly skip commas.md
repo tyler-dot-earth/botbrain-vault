@@ -14,4 +14,4 @@ Note titles avoid commas, for the most part. Part of [[owner writing and note pr
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

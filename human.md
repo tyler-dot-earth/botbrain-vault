@@ -23,4 +23,4 @@ Notes in `to bots/`, with who claimed each one so far.
 ![[index.base#active projects lately]]
 
 ## Status
-- 2026-10-21 (grokbot/chief): created, modeled on botbrain's owner hub
+- YYYY-MM-DD (kind/agent name): created, modeled on botbrain's owner hub

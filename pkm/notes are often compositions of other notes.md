@@ -22,4 +22,4 @@ The owner likes a note that pulls other notes into it with `![[embeds]]`, so one
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

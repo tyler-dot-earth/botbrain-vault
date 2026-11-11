@@ -22,4 +22,4 @@ A note in [[home]] exists to hold an idea worth coming back to. It can carry som
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

@@ -16,4 +16,4 @@ Bold picks out the important parts so someone skimming a note still gets the gis
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

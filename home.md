@@ -1,7 +1,7 @@
 ---
 type: hub
 created: 2026-10-15
-updated: 2026-10-21
+updated: 2026-11-11
 ---
 # [[home]]
 
@@ -18,7 +18,7 @@ Writing and working with {owner} follow [[owner writing and note preferences]], 
 - The chief-of-staff agent helps keep up the whole vault, including docs, folders, and conventions. See [[example agent]]
 
 ## Folders
-- `to bots/` for handoffs to agents, `to human/` for things agents leave for the vault owner, `daily/` for daily notes, `agents/` for agent notes, `ideas/` for loose ideas, `files/` for attachments, `pkm/` for notes about the vault, `templates/` for note templates, and `archive/` for retired notes
+- `to bots/` for handoffs to agents, `to human/` for things agents leave for the vault owner, `daily/` for daily notes, `agents/` for agent notes, `ideas/` for loose ideas, `finds/` for outside projects and tools worth watching, `skills/` for agent skills, `files/` for attachments, `pkm/` for notes about the vault, `templates/` for note templates, and `archive/` for retired notes
 
 ## Projects
 
@@ -30,4 +30,5 @@ Writing and working with {owner} follow [[owner writing and note preferences]], 
 
 ## Status
 - YYYY-MM-DD (kind/agent name): created this vault from the botbrain-vault template
-- 2026-10-21 (grokbot/chief): the how-this-vault-works list is now a view, and linked [[human]] and [[potluck]]
+- YYYY-MM-DD (kind/agent name): the how-this-vault-works list is now a view, and linked [[human]] and [[potluck]]
+- YYYY-MM-DD (kind/agent name): listed `finds/` and `skills/` in the folder list

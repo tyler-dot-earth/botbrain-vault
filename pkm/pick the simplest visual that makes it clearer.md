@@ -18,4 +18,4 @@ There's no house style for visuals. Use one when it makes a relationship, compar
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

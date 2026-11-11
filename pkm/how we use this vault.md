@@ -1,7 +1,7 @@
 ---
 type: pkm
 created: 2026-10-15
-updated: 2026-10-22
+updated: 2026-11-11
 role: how this vault works
 ---
 # [[how we use this vault]]
@@ -17,9 +17,12 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - `to bots/` and `to human/` are handoff folders, covered below
 - `daily/` holds daily notes, one per day named `YYYY-MM-DD`, created by the Periodic Notes community plugin (by Liam Cain), set up for daily notes only with `daily` as its folder. The morning brief seeds it. Check items off in place and never move them between sections. [[about daily]] has the details, including the `## activity` section
 - The chief-of-staff agent helps keep up the whole vault, including docs, folders, and conventions as they change. See [[example agent]]
-- `ideas/` holds early ideas, `pkm/` holds notes about the vault, `files/` holds attachments, `transcripts/` holds coding-agent sessions imported by Tapedeck, and `archive/` holds retired notes
+- `ideas/` holds early ideas
+- `finds/` holds outside projects, tools, products, posts, and comparisons of them saved from a link to keep an eye on, with [[finds]] as the hub
+- `skills/` holds agent skills, one folder each, as [[vault skills live in the skills folder]] says, and [[skills]] is the hub
+- `pkm/` holds notes about the vault, `files/` holds attachments, `transcripts/` holds coding-agent sessions imported by Tapedeck, and `archive/` holds retired notes
 - Only [[home]] and [[human]] live at the top level; all `.base` indexes live in `pkm/`
-- Give a topic or project its own folder once it has a handful of notes. Until then, leave notes at the top level, since links do most of the organizing
+- Give a topic or project its own folder once it has a handful of notes. Until then, leave notes at the top level, since links do most of the organizing, and [[new notes get linked to and from the notes they relate to]]
 
 ## projects
 - A project is a hub note with `type: project`, an `area`, a `status` of `active`, `paused`, or `done`, and a `started` date
@@ -28,8 +31,7 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - Embed `![[projects.base#this project]]` in a hub note to list its notes automatically
 
 ## say who changed what
-- Add a dated line to a note's `## Status` section after a meaningful change, like `- YYYY-MM-DD (human): added pricing source`
-- Name the author as `kind/name`, like `grokbot/chief of staff` or `human`
+- Add a Status line after a meaningful change, following [[status lines say who changed a note and why]]
 
 ## edit gently
 - Agents only fill blanks {owner} leaves, like `{TBA HERE}`, in notes they're actively writing
@@ -64,7 +66,7 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - Transcript notes use `type: transcript`, `harness`, `model`, `session_id`, `machine`, `cwd`, `resume`, `date` (when the session happened), `created` (when the note was made), `project`, and `related`
 
 ## type on notes
-- Every new note gets a `type`: `project` (hubs only), `note`, `idea`, `agent`, `transcript`, `handoff`, `hub`, or `pkm`. See [[properties]] for what each means
+- Every new note gets a `type`: `project` (hubs only), `note`, `idea`, `find`, `agent`, `transcript`, `handoff`, `hub`, or `pkm`. See [[properties]] for what each means
 - When a handoff moves out of `to bots/` or `to human/`, change its type to fit where it lands
 
 ## dates on notes
@@ -78,6 +80,7 @@ How notes are organized in this vault. Note shape follows [[owner writing and no
 - YYYY-MM-DD (kind/agent name): agents set created and updated by hand
 - YYYY-MM-DD (kind/agent name): every new note gets a type
 - YYYY-MM-DD (kind/agent name): moved the root bases into pkm/
-- 2026-10-21 (grokbot/chief): useful agent activity goes under `## activity` in the day's daily note, not separate logs
-- 2026-10-21 (grokbot/chief): added [[human]], [[potluck]], and the `role` property for rule notes
-- 2026-10-22 (grokbot/chief): moved the valuable-notes rule into [[a vault note is an idea not a log]]
+- YYYY-MM-DD (kind/agent name): useful agent activity goes under `## activity` in the day's daily note, not separate logs
+- YYYY-MM-DD (kind/agent name): added [[human]], [[potluck]], and the `role` property for rule notes
+- YYYY-MM-DD (kind/agent name): moved the valuable-notes rule into [[a vault note is an idea not a log]]
+- YYYY-MM-DD (kind/agent name): added `finds/` and `skills/`, `type: find`, and pointed status lines at their own convention note

@@ -23,4 +23,4 @@ The owner skims notes, so they're shaped to be scanned: headings say what each s
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

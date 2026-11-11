@@ -22,4 +22,4 @@ A note does one job: it develops a single idea, question, or decision, with the 
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

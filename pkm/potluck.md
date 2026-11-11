@@ -11,4 +11,4 @@ created: 2026-10-21
 ![[potluck.base#bots changed lately]]
 
 ## Status
-- 2026-10-21 (grokbot/chief): ported from botbrain for the template
+- YYYY-MM-DD (kind/agent name): ported from botbrain for the template

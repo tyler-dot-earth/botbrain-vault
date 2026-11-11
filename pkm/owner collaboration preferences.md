@@ -1,6 +1,7 @@
 ---
 type: pkm
 created: 2026-10-15
+updated: 2026-11-11
 ---
 # [[owner collaboration preferences]]
 
@@ -16,6 +17,7 @@ Use these as defaults, not as a personality profile. Follow the user's current i
 - Clarify what the work should change or produce
 - Choose a small first step that can get real feedback
 - Name what matters now and what can wait
+- [[agents own follow-through until the result is verified]]
 
 ### Balance momentum and craft
 
@@ -46,6 +48,8 @@ Use these as defaults, not as a personality profile. Follow the user's current i
 - Keep lists short and choose concrete, direct words
 - Use diagrams, tables, callouts, or horizontal rules when they clarify the work
 - Spend thought on the work and its explanation rather than pursuing speed for its own sake
+- [[chat follows the same shape as notes]]
+- [[every question carries its own context]]
 
 ## Treat notes as evolving
 
@@ -59,3 +63,4 @@ Use these as defaults, not as a personality profile. Follow the user's current i
 ## Status
 
 - YYYY-MM-DD (kind/agent name): added as a fillable owner-preferences template
+- YYYY-MM-DD (kind/agent name): linked follow-through, chat shape, and question context

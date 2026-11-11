@@ -33,4 +33,4 @@ This is how we shape them, since [[a vault note is an idea not a log]]
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): split the five rules into their own claim-titled notes and kept this as their hub, ported from botbrain
+- YYYY-MM-DD (kind/agent name): split the five rules into their own claim-titled notes and kept this as their hub, ported from botbrain

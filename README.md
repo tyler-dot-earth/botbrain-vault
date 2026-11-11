@@ -1,6 +1,7 @@
 ---
 type: pkm
 created: 2026-10-15
+updated: 2026-11-11
 ---
 # botbrain-vault
 
@@ -14,10 +15,13 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | --- | --- |
 | `home.md` | Front page (rename if you want a vault-specific title) |
 | `human.md` | What might need the owner's attention: `to human/`, `needs: human`, waiting handoffs, and project notes changed this week |
+| `AGENTS.md` | One-line pointer to the shared [[agents#every agent reads this]] section |
 | `pkm/index.base` | Folder / recently-changed / this-folder / how-this-vault-works views, plus the views on `human.md` |
 | `pkm/potluck.md`, `pkm/potluck.base` | Where bots read news from other bots on a routine |
 | `pkm/projects.base` | Active and all-project views |
 | `pkm/transcripts.base` | Saved coding-agent sessions, newest first and by project |
+| `pkm/finds.base` | Outside finds, recent and by area |
+| `pkm/skills.base` | `SKILL.md` files in `skills/` |
 | `pkm/properties.md`, `pkm/properties.base` | What each frontmatter property means, plus by-type, agents, handoffs, transcripts, and missing-type views |
 | `agents/` | One note per agent; `agents.md` hub + `example agent.md` template |
 | `daily/` | Daily notes (`YYYY-MM-DD`), created by Periodic Notes from `templates/daily.md` |
@@ -25,18 +29,20 @@ Copy this folder to start a new vault. Do not treat it as a live vault itself.
 | `to bots/` | Handoffs from human → agents |
 | `to human/` | Handoffs from agents → human |
 | `ideas/` | Loose early ideas |
+| `finds/` | Outside projects, tools, posts, and comparisons saved to keep an eye on |
+| `skills/` | Agent skills, one folder each, following the Agent Skills spec |
 | `files/` | Attachments |
 | `transcripts/` | Coding-agent sessions imported by Tapedeck (created on first import) |
 | `pkm/` | Notes about how the vault works |
 | `archive/` | Retired notes (ignored by search via `app.json`) |
-| `.agents/` | Agent skills for working in the vault. Obsidian Sync skips dot folders other than `.obsidian`, so copy this by hand to every computer |
+| `.agents/` | Local links from `skills/` for Codex; Obsidian Sync skips dot folders other than `.obsidian`, so copy this by hand to every computer, or remake the links |
 
-Each content folder has an `about …` note so empty folders survive Obsidian Sync.
+Each content folder has an `about …` note, or a hub note, so empty folders survive Obsidian Sync.
 
 ## Conventions (short)
 
 - Folders stay **one level deep**; lowercase names
-- Status lines look like `- YYYY-MM-DD (human): …` or `- YYYY-MM-DD (kind/agent name): …`
+- Status lines look like `- YYYY-MM-DD (human): …` or `- YYYY-MM-DD (kind/agent name): …`, as [[status lines say who changed a note and why]] describes
 - Agents claim work in `to bots/` with `claimed_by` / `claimed`, then file the note elsewhere
 - Agents leave results for the owner in `to human/`, or set `needs: human` elsewhere
 - Secrets stay out of the vault
@@ -55,11 +61,11 @@ Community plugins already listed in `.obsidian/community-plugins.json`:
 - Periodic Notes (daily notes folder = `daily`; core Daily notes is off on purpose)
 - Calendar, Calendar Bases, Natural Language Dates
 - Templater
-- Mermaid View, Diagram Popup (mermaid-popup)
+- [Slick Mermaid](https://github.com/pasevin/slick-mermaid) 0.1.9 (theme-aware Mermaid diagrams with a larger pan / zoom viewer). mermaid-view and mermaid-popup remain in `.obsidian/plugins/` but are not enabled, matching the usual Slick Mermaid setup
 - Iconic (icons for `.base` files, how-this-vault-works notes, and daily notes)
 - Open Tab Settings (open notes in a new tab and skip duplicate tabs)
 - Style Settings
-- [Blockreffer](https://community.obsidian.md/plugins/blockreffer), [Lanes](https://community.obsidian.md/plugins/lanes) 🎳, [Tapedeck](https://community.obsidian.md/plugins/tapedeck) 📼 (optional but included; Tapedeck imports into `transcripts/`), [Tincan](https://github.com/tyler-dot-earth/obsidian-tincan) 🥫 (answer `[!question]`, `[!question|choice]`, and `[!question|choices]` callouts in reading view)
+- [Blockreffer](https://community.obsidian.md/plugins?id=blockreffer), [Lanes](https://community.obsidian.md/plugins?id=lanes) 🎳, [Tapedeck](https://community.obsidian.md/plugins?id=tapedeck) 📼 (optional but included; Tapedeck imports into `transcripts/`), [Tincan](https://github.com/tyler-dot-earth/obsidian-tincan) 🥫 0.4.0 (answer `[!question]`, `[!question|choice]`, and `[!question|choices]` callouts in reading view; custom answers use Write another answer…, not an Other checkbox)
 
 Core: Bases on; Daily notes off; Sync left on for humans who use Obsidian Sync (agents using headless sync should turn Sync off on their device — see the headless sync note).
 

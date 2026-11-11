@@ -14,4 +14,4 @@ This vault uses the Oxford comma, so a list of three or more items gets a comma 
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

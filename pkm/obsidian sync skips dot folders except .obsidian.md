@@ -13,4 +13,4 @@ This template ships agent skills for working in the vault in `.agents/`, like `o
 To share anything else through the vault, either keep it in a normal folder or copy it between computers by hand.
 
 ## Status
-- 2026-10-21 (grokbot/chief): ported from botbrain for the template
+- YYYY-MM-DD (kind/agent name): ported from botbrain for the template

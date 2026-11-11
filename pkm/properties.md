@@ -2,7 +2,7 @@
 type: pkm
 area: pkm
 created: 2026-10-16
-updated: 2026-10-21
+updated: 2026-11-11
 role: how this vault works
 ---
 # [[properties]]
@@ -20,10 +20,11 @@ What each frontmatter property in {vault-name} means, what its value looks like,
 | `project` | a project hub, with `area`, `status`, `started`. Only hubs, never notes inside a project | a project's folder, or the top level |
 | `note` | a general working note; links to its hub with `project` when it belongs to one | anywhere |
 | `idea` | an early idea or something to explore later | `ideas/` |
+| `find` | an outside project, tool, product, post, or comparison saved to keep an eye on; `finds.base` lists them | `finds/`, or an area folder if it keeps `type: find` |
 | `agent` | one agent's purpose, instructions, routines | `agents/`, like [[example agent]] |
 | `transcript` | a saved coding-agent session | `transcripts/` |
 | `handoff` | a note waiting on a bot or on {owner}; keeps `claimed_by`/`claimed`. Retype when it's moved out | `to bots/`, `to human/` |
-| `hub` | a front page or index note for a person or area | [[home]], [[human]], [[agents]] |
+| `hub` | a front page or index note for a person or area | [[home]], [[human]], [[agents]], [[finds]], [[skills]] |
 | `pkm` | how the vault and our note-taking work, including each folder's `about` note | `pkm/`, `about` notes |
 
 - **area** — the broader area a note belongs to, usually matching a folder or product. Plain lowercase slug like `pkm` or `personal`. Optional; general-purpose agents leave it off. Set by the note's creator. `projects.base` groups active projects by it
@@ -42,14 +43,15 @@ What each frontmatter property in {vault-name} means, what its value looks like,
 
 Used only on `type: agent` notes in `agents/`, set by the chief-of-staff agent or the agent itself.
 
-- **kind** — what sort of agent it is, like `grokbot`. Matches the `kind` half of the `kind/name` author convention
-- **agent_id** — the agent's id in its platform. Lets anyone find the exact agent behind a note
+- **kind** — the app or harness on a single-app agent note, like `{kind}`. Matches the `kind` half of the `kind/name` author convention. A multi-app identity leaves this off shared frontmatter and records each app in its own section, as [[one agent can work through several apps]] describes
+- **agent_id** — the agent's id in its platform, for a single-app agent. Lets anyone find the exact agent behind a note
+- A multi-app identity uses one property per app instead, named for that app and set only where the agent exists there, such as `{kind} agent id`
 
 ## handoff
 
 Used on notes in `to bots/` and `to human/`, or anywhere that needs {owner}. They use `type: handoff`.
 
-- **claimed_by** — which agent picked up a `to bots/` note. `kind/name`, like `grokbot/chief of staff`. Set by the claiming agent
+- **claimed_by** — which agent picked up a `to bots/` note. `kind/name`, like `kind/[[example agent]]`. Set by the claiming agent
 - **claimed** — when it was claimed. Local date and time, `YYYY-MM-DDTHH:MM`. Set alongside `claimed_by`
 - **needs** — who has to act, like `human`. Added by an agent, removed once handled
 
@@ -82,4 +84,5 @@ created: <% tp.file.creation_date("YYYY-MM-DD") %>
 ## Status
 
 - YYYY-MM-DD (kind/agent name): created as the property reference, with `properties.base` and `transcripts.base`
-- 2026-10-21 (grokbot/chief): added `role`
+- YYYY-MM-DD (kind/agent name): added `role`
+- YYYY-MM-DD (kind/agent name): added `type: find` and per-app agent ids for multi-app identities

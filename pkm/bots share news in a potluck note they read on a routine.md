@@ -16,4 +16,4 @@ role: how this vault works
 - Bots that don't run Obsidian apply the same filters by reading frontmatter and modified times
 
 ## Status
-- 2026-10-21 (grokbot/chief): ported from botbrain for the template
+- YYYY-MM-DD (kind/agent name): ported from botbrain for the template

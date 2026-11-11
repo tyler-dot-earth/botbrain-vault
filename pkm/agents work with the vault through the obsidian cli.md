@@ -26,4 +26,4 @@ Agents read, search, query, and reorganize the vault with the `obsidian` command
 - Plain file reads and edits still work everywhere, so an agent without the app isn't blocked
 
 ## Status
-- 2026-10-21 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

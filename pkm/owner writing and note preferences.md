@@ -1,7 +1,7 @@
 ---
 type: pkm
 created: 2026-10-15
-updated: 2026-10-26
+updated: 2026-11-11
 ---
 # [[owner writing and note preferences]]
 
@@ -14,6 +14,7 @@ Use these as defaults, not rules for every situation. Follow the user's current 
 - [[rough notes are where thinking starts]], so let ideas stay unfinished for a while
 - [[reading highlights are raw material for our own notes]], not a finished store
 - [[each note develops one idea]], and [[structure grows from links not folders]]
+- [[new notes get linked to and from the notes they relate to]]
 
 ## shape notes
 
@@ -21,7 +22,10 @@ Use these as defaults, not rules for every situation. Follow the user's current 
 - [[pick the simplest visual that makes it clearer]]
 - [[notes are often compositions of other notes]]
 - [[claim titles make a note reusable wherever it's linked]], and they read inline in a sentence instead of a `; see [[...]]` tail
-- Questions for the owner are [Tincan](https://github.com/tyler-dot-earth/obsidian-tincan) callouts with the question as the title: `[!question]` for free text, `[!question|choice]` to pick one, and `[!question|choices]` to pick several, with options as `> - [ ] option` lines, a leading `🤖` on the recommended one, and Tincan's own Other row for anything else:
+- Questions for the owner are [Tincan](https://github.com/tyler-dot-earth/obsidian-tincan) callouts, shaped like [[open questions get a spot for answers]] and [[each decision option gets its own checkbox]]: `[!question]` for free text, `[!question|choice]` to pick one, and `[!question|choices]` to pick several, with options as `> - [ ] option` lines and a leading `🤖` on the recommended one
+- Write another answer… saves a custom answer as an `Other:` paragraph, with no separate Other checkbox
+- [[every question carries its own context]], including in chat
+- Chat replies follow [[chat follows the same shape as notes]]
 
 ```markdown
 > [!question|choice] Which day should the weekly review happen?
@@ -88,6 +92,7 @@ flowchart LR
 ## Status
 
 - YYYY-MM-DD (kind/agent name): added as a fillable owner-preferences template
-- 2026-10-21 (grokbot/chief): titles are complete phrases, avoid commas, and get used inline instead of "; see [[...]]" tails
-- 2026-10-22 (grokbot/chief): split the rules into their own notes and kept this as their hub, ported from botbrain without the weekly notes rule
-- 2026-10-26 (grokbot/worm): rewrote for tincan's question-as-title form, the only question form now
+- YYYY-MM-DD (kind/agent name): titles are complete phrases, avoid commas, and get used inline instead of "; see [[...]]" tails
+- YYYY-MM-DD (kind/agent name): split the rules into their own notes and kept this as their hub, ported from botbrain without the weekly notes rule
+- YYYY-MM-DD (kind/agent name): rewrote for tincan's question-as-title form, the only question form now
+- YYYY-MM-DD (kind/agent name): updated the Tincan 0.4.0 shape and linked the new convention notes

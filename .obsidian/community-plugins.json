@@ -1,7 +1,5 @@
 [
-  "mermaid-view",
   "obsidian-style-settings",
-  "mermaid-popup",
   "iconic",
   "blockreffer",
   "lanes",
@@ -12,5 +10,6 @@
   "calendar-bases",
   "tapedeck",
   "open-tab-settings",
-  "tincan"
+  "tincan",
+  "slick-mermaid"
 ]

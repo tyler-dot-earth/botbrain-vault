@@ -62,4 +62,4 @@ One agent type's real setup. Other agents don't need to copy it.
 ## Status
 - YYYY-MM-DD (kind/agent name): documented the headless sync setup for the template
 - 2026-10-16 (kind/agent name): file types now include `unsupported`, since sync settings are per device
-- 2026-10-21 (grokbot/chief): joining now copies `.agents/` by hand, since sync skips dot folders
+- YYYY-MM-DD (kind/agent name): joining now copies `.agents/` by hand, since sync skips dot folders

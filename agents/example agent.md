@@ -4,10 +4,14 @@ kind: {kind}
 agent_id: {agent_id}
 status: active
 created: 2026-10-15
+updated: 2026-11-11
 ---
 # [[example agent]]
 
-Example chief-of-staff agent note. Copy this file, rename it, and fill in the placeholders for each real agent.
+- Example chief-of-staff agent note. Copy this file, rename it, and fill in the placeholders for each real agent
+- A single-app agent can keep `kind` and `agent_id` on the note; a multi-app identity follows [[one agent can work through several apps]]
+
+![[agents#every agent reads this]]
 
 ## Purpose
 - Oversee other agents and route their actionable yes/no questions to {owner}
@@ -34,4 +38,5 @@ Example chief-of-staff agent note. Copy this file, rename it, and fill in the pl
 
 ## Status
 - YYYY-MM-DD (kind/agent name): created as the template example
-- 2026-10-21 (grokbot/chief): activity goes in the daily note's `## activity` section, and routines start by reading [[potluck]]
+- YYYY-MM-DD (kind/agent name): activity goes in the daily note's `## activity` section, and routines start by reading [[potluck]]
+- YYYY-MM-DD (kind/agent name): embeds the shared agents section and points at the multi-app identity convention

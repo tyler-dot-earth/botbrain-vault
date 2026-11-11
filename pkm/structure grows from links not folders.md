@@ -17,4 +17,4 @@ This vault gets its shape mostly from links and a few hubs, not from planning fo
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

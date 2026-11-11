@@ -15,4 +15,4 @@ A note's H1 is a wikilink to the note itself, like `# [[each note develops one i
 
 ## Status
 
-- 2026-10-22 (grokbot/chief): ported from botbrain
+- YYYY-MM-DD (kind/agent name): ported from botbrain

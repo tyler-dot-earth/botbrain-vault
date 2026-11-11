@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.inFolder("skills")
+    - file.basename == "SKILL"
+formulas:
+  skill: link(file.path, name)
+  from: if(note.metadata["upstream"], "upstream", "vault")
+properties:
+  formula.skill:
+    displayName: Skill
+  formula.from:
+    displayName: From
+  note.description:
+    displayName: What it does and when
+views:
+  - type: table
+    name: skills
+    order:
+      - formula.skill
+      - formula.from
+      - description
+    sort:
+      - property: name
+        direction: ASC
+    columnSize:
+      formula.skill: 160
+      formula.from: 83
